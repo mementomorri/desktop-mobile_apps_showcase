@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kivy-lab"
+version = "0.1.0"
+description = "Laboratory for testing and analysing functionality of Kivy library."
+authors = ["mementomorri"]
+license = "GPL-3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Kivy = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
